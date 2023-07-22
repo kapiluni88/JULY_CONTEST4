@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #242121;
+    color: white;
+}
+
+.navbar-container{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 4rem;
+    align-items: center;
+    background-color: #292828;
+}
+
+.navbar-container .logo-container{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-container .logo-container .text #logo1{
+    color: white;
+    font-size: 30px;
+}
+
+.navbar-container .logo-container .text #logo2{
+    color: #949393;
+    font-size: 18px;
+}
+
+.navbar-container .search-container{
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 40vw;
+    background-color: inherit;
+}
+
+.navbar-container .search-container input{
+    position: absolute;
+    width: 30%;
+    padding: 5px 35px 5px 50px;
+    font-size: 18px;
+    background-color: #373737;
+}
+
+.navbar-container .search-container input:focus{
+    outline: none;
+    color: #9e9797;
+}
+
+
+.navbar-container .search-container img{
+    position: relative;
+    z-index: 1;
+    left: 10px;
+}
+
+.navbar-container .search-container button{
+    position: relative;
+    left: 550px;
+    font-size: 18px;
+    padding: 5px 20px;
+    background-color: #292828;
+    color: #5F5E5E;
+    border: 2px solid #697286;
+}
+
+.navbar-container .search-container button:hover{
+    background-color: #575656;
+    color: #252323;
+}
+
+.navbar-container .account-container{
+    /* border: 2px solid red; */
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 25px;
+}
+
+
+.api-one-container{
+    margin-top: 2rem;
+    /* border: 2px solid red; */
+    padding: 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.api-one-container .one-card{
+    /* border: 2px solid gold; */
+    display: flex;
+    width: 20vw;
+    height: 200px;
+    /* overflow: hidden; */
+    background-color: #415F71;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.api-one-container .description-container .title{
+    margin-bottom: 0;
+    /* border: 2px solid red; */
+    height: 38px;
+    overflow: hidden;
+}
+
+.api-one-container .description-container button{
+    padding: 2px 10px;
+    float: right;
+    margin-top: 3px;
+    background-color: #415F71;
+    color: #CBC3D2;
+    border: 2px solid #CBC3D2;
+}
+
+.api-one-container .one-card .over{
+    /* border: 2px solid red; */
+    margin-top: 0;
+    padding-top: 0;
+    height: 90px;
+    overflow: hidden;
+}
+
+.api-one-container .description-container{
+    padding: 0px 20px;
+}
+
+h1{
+    margin-left: 50px;
+}
+
+.footer{
+    display: block;
+    padding: 20px 0;
+}
+
+
+.clicked-container{
+    /* border: 2px solid red; */
+    display: flex;
+    margin : 40px 50px;
+    padding: 0px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #733F54;
+    padding-top: 10px;
+}
+
+
+.clicked-container .clicked-description .clicked-title h1{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.clicked-container .clicked-description .clicked-title{
+    display: flex;
+    /* border: 1px solid gold; */
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.clicked-container .clicked-description .clicked-title p{
+    margin: 0;
+    padding: 0;
+    color: #A0AFB8;
+}
+
+.clicked-container .clicked-description span{
+    color: #A0AFB8;
+}
+
+.clicked-container .clicked-description .clicked-details{
+    color: #A0AFB8;
+    margin-top: 15px;
+}
+
+.clicked-container .clicked-description .rating-container{
+    display: flex;
+    font-weight: bolder;
+}
+
+.clicked-container .clicked-description .rating-container p{
+    border-right: 1px solid #677F8D;
+    padding: 5px 30px 5px 0px;
+}
+
+.clicked-container .clicked-description .rating-container p:nth-child(4){
+    border: none;
+}
+
+.clicked-container .clicked-description .clicked-button-container{
+    float: right;
+    margin: 10px 0 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+
+.clicked-container .clicked-description .clicked-button-container button{
+    background-color: inherit;
+    padding: 8px 20px;
+    border: 1px solid #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
